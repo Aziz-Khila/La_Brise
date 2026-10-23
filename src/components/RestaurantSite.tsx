@@ -1,4 +1,3 @@
-import type { ReactNode } from "react";
 import type { Brand, RestaurantConfig, SectionConfig } from "@/config/types";
 import { resolveTheme, themeToCss } from "@/config/themes";
 import { SmoothScroll } from "@/components/SmoothScroll";
@@ -35,13 +34,7 @@ function renderSection(section: SectionConfig, restaurant: RestaurantConfig, bra
   }
 }
 
-type RestaurantSiteProps = {
-  restaurant: RestaurantConfig;
-  /** Extra UI rendered on top of the site (used by the preview toolbar). */
-  overlay?: ReactNode;
-};
-
-export function RestaurantSite({ restaurant, overlay }: RestaurantSiteProps) {
+export function RestaurantSite({ restaurant }: { restaurant: RestaurantConfig }) {
   const theme = resolveTheme(restaurant.theme);
   const sections = restaurant.sections.filter((section) => section.enabled !== false);
   const brand: Brand = {
@@ -80,7 +73,6 @@ export function RestaurantSite({ restaurant, overlay }: RestaurantSiteProps) {
       <div className="site" data-motion={restaurant.motion} data-scheme={theme.scheme}>
         {restaurant.motion === "rich" ? <SmoothScroll>{content}</SmoothScroll> : content}
       </div>
-      {overlay}
     </>
   );
 }

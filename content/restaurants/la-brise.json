@@ -1,0 +1,286 @@
+{
+  "slug": "la-brise",
+  "name": "La Brise",
+  "kind": "Café & Restaurant",
+  "city": "Borj Cédria",
+  "logo": "/restaurants/la-brise/logo-or.png",
+  "seo": {
+    "title": "La Brise — Café & Restaurant · Borj Cédria",
+    "description": "La Brise, café & restaurant terre et mer à Borj Cédria : brunch, pizzas, pâtes fraîches, saveurs de la mer et douceurs maison. Ouvert tous les jours de 7h à 1h."
+  },
+  "contact": {
+    "phone": "+216 98 181 802",
+    "whatsapp": "+216 98 181 802",
+    "instagram": "la.brise.terre.mer",
+    "facebook": "https://www.facebook.com/profile.php?id=61590230206199"
+  },
+  "location": {
+    "address": "Borj Cédria, Ben Arous",
+    "mapsUrl": "https://maps.app.goo.gl/faCfVhL4FubKHNHK8",
+    "mapQuery": "36.7151717,10.4239669"
+  },
+  "hours": [
+    {
+      "days": "Tous les jours",
+      "time": "07h00 – 01h00"
+    }
+  ],
+  "currency": "DT",
+  "theme": {
+    "preset": "rustic"
+  },
+  "motion": "rich",
+  "header": {
+    "cta": {
+      "label": "Réserver",
+      "action": "#reservation"
+    }
+  },
+  "floatingWhatsapp": {
+    "enabled": true,
+    "message": "Bonjour La Brise, je souhaite passer une commande."
+  },
+  "menu": [
+    {
+      "id": "brunch",
+      "name": "Brunch & petit-déjeuner",
+      "description": "L’art du brunch, l’expérience matinale.",
+      "items": [
+        {
+          "name": "Brunch La Brise",
+          "description": "Viennoiseries, salade fraîche, brochettes, jus pressé, café et douceurs.",
+          "price": "—",
+          "tags": [
+            "chef"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pizzas",
+      "name": "Pizzas",
+      "items": [
+        {
+          "name": "Pepperoni",
+          "description": "Sauce tomate, mozzarella, pepperoni, basilic frais.",
+          "price": "—",
+          "image": "/restaurants/la-brise/pizza.jpg",
+          "tags": [
+            "popular"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pates",
+      "name": "Pâtes fraîches",
+      "items": [
+        {
+          "name": "Ravioli au pesto",
+          "description": "Ravioli maison, sauce pesto onctueuse, tomate cerise, basilic.",
+          "price": "—",
+          "image": "/restaurants/la-brise/1791896277835-01a13556-cee8-79b1-bec6-3a7d2a1220b8.png",
+          "tags": [
+            "chef"
+          ]
+        },
+        {
+          "name": "Ravioli tomate cerise",
+          "description": "Ravioli dorés, sauce tomate, tomates cerises confites, basilic.",
+          "price": "—",
+          "image": "/restaurants/la-brise/ravioli.jpg"
+        },
+        {
+          "name": "Ravioli à la crème",
+          "description": "Sauce crème onctueuse, tuile croustillante.",
+          "price": "—"
+        },
+        {
+          "name": "Penne poulet & champignons",
+          "description": "Sauce crémeuse, poulet, champignons, parmesan.",
+          "price": "—",
+          "image": "/restaurants/la-brise/penne.jpg"
+        },
+        {
+          "name": "Pâtes aux crevettes",
+          "description": "Crevettes, sauce rosée crémeuse, tomate cerise, basilic.",
+          "price": "—",
+          "image": "/restaurants/la-brise/pates-crevettes.jpg",
+          "tags": [
+            "popular"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plats",
+      "name": "Plats",
+      "items": [
+        {
+          "name": "Poulet farci tomates & figues séchées",
+          "description": "Purée de pommes de terre, carotte, courgette et pomme de terre rôties.",
+          "price": "—",
+          "tags": [
+            "new"
+          ]
+        },
+        {
+          "name": "Filet de poulet, riz & légumes",
+          "description": "Riz parfumé, légumes de saison, sauce maison.",
+          "price": "—"
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "items": [
+        {
+          "name": "Cheesecake spéculoos",
+          "description": "Base biscuitée, crème onctueuse, nappage spéculoos.",
+          "price": "—",
+          "image": "/restaurants/la-brise/cheesecake.jpg"
+        }
+      ]
+    },
+    {
+      "id": "boissons",
+      "name": "Boissons",
+      "items": [
+        {
+          "name": "Espresso",
+          "price": "—"
+        },
+        {
+          "name": "Cappuccino",
+          "price": "—"
+        },
+        {
+          "name": "Jus frais",
+          "price": "—"
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "type": "hero",
+      "variant": "centered",
+      "eyebrow": "Café & Restaurant · Borj Cédria",
+      "headline": "Élégance dans l’assiette, excellence dans la tasse.",
+      "text": "Du café du matin au dîner entre amis, une expérience pensée pour chaque instant — ouvert tous les jours de 7h à 1h.",
+      "image": {
+        "src": "/restaurants/la-brise/1791896277835-01a13556-cee8-79b1-bec6-3a7d2a1220b8.png",
+        "alt": ""
+      },
+      "primaryCta": {
+        "label": "Découvrir",
+        "action": "tour"
+      }
+    },
+    {
+      "type": "about",
+      "id": "experience",
+      "navLabel": "L’expérience",
+      "variant": "image-right",
+      "eyebrow": "L’esprit La Brise",
+      "title": "Terre, mer & moments partagés.",
+      "text": "Brunch du matin, pause café, déjeuner ou dîner : La Brise accueille chaque moment de la journée dans un cadre élégant à Borj Cédria. Pâtes fraîches, pizzas, saveurs de la mer et douceurs maison, servies avec soin par une équipe aux petits soins.",
+      "image": {
+        "src": "/restaurants/la-brise/image-2.png",
+        "alt": "Serveur La Brise présentant une assiette de poulet, riz et légumes",
+        "whole": true
+      }
+    },
+    {
+      "type": "featured",
+      "id": "plats",
+      "navLabel": "Plats",
+      "variant": "grid",
+      "eyebrow": "Sur la table",
+      "title": "Ce qui fait La Brise.",
+      "text": "Quelques assiettes signées La Brise, de la terre à la mer.",
+      "items": [
+        {
+          "title": "Pizzas",
+          "text": "Pâte dorée au four, mozzarella fondante et garnitures généreuses.",
+          "image": {
+            "src": "/restaurants/la-brise/101-pizza-au-poulet-et-fromage-de-chevre.jpg",
+            "alt": "Pizza pepperoni et basilic",
+            "focus": "45% 26%"
+          }
+        },
+        {
+          "title": "Pâtes fraîches",
+          "text": "Ravioli maison, sauce tomate cerise ou crème onctueuse.",
+          "image": {
+            "src": "/restaurants/la-brise/shrimp-spaghetti-recipe-04.jpg",
+            "alt": "Ravioli sauce tomate et ravioli à la crème",
+            "focus": "60% 51%"
+          }
+        },
+        {
+          "title": "Saveurs de la mer",
+          "text": "Pâtes aux crevettes, sauce crémeuse et basilic frais.",
+          "image": {
+            "src": "/restaurants/la-brise/poisson-grille-salade-legumes-oignons-paillettes-sumac-140725-10554.avif",
+            "alt": "Pâtes aux crevettes",
+            "focus": "56% 56%"
+          }
+        },
+        {
+          "title": "Pause café",
+          "text": "Espresso, cappuccino et douceurs, de 7h à 1h.",
+          "image": {
+            "src": "/restaurants/la-brise/images.jpeg",
+            "alt": "Café servi avec cannelle et biscuits",
+            "focus": "65% 50%"
+          }
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "navLabel": "Menu",
+      "variant": "book",
+      "eyebrow": "La carte",
+      "title": "Notre menu.",
+      "text": "Ouvrez le menu et tournez les pages — chaque plat, ses ingrédients, son prix.",
+      "coverNote": "Terre · Mer · Moments partagés",
+      "orderButton": true
+    },
+    {
+      "type": "quote",
+      "quote": "“Une expérience pensée pour chaque instant.”",
+      "cite": "La Brise · Borj Cédria",
+      "image": {
+        "src": "/restaurants/la-brise/cheesecake.jpg",
+        "alt": "",
+        "focus": "49% 66%"
+      }
+    },
+    {
+      "type": "reservation",
+      "variant": "form",
+      "eyebrow": "Réservation",
+      "title": "Réservez votre table.",
+      "text": "Choisissez la date et l’heure, nous confirmons votre réservation sur WhatsApp.",
+      "maxGuests": 12
+    },
+    {
+      "type": "visit",
+      "id": "visite",
+      "navLabel": "Visite",
+      "variant": "photo",
+      "eyebrow": "Nous rendre visite",
+      "title": "Borj Cédria vous attend.",
+      "image": {
+        "src": "/restaurants/la-brise/1791894163992-01a13536-8d25-78ad-96d4-82cc2490ec76.png",
+        "alt": "Façade La Brise à Borj Cédria"
+      }
+    }
+  ],
+  "footer": {
+    "note": "Photos : @la.brise.terre.mer"
+  }
+}
